@@ -50,7 +50,7 @@ func demoTwo(c int) (int, error) {
 	for i := 0; i < c; i++ {
 		if i == 2 {
 			// return 0, errors.New("there is no such thing as 2")
-			return 0, &mySecondCustomError{500, "server made yucky fucky woo", "bad things", "probably some really contrived bug"}
+			return 0, &mySecondCustomError{500, "server made yucky yucky woo", "bad things", "probably some really contrived bug"}
 		}
 		tally++
 	}

@@ -71,7 +71,7 @@ func getCountryDetails(name string) []countryInfo {
 	}
 	bytes, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		panic("Server made fucky woo!")
+		panic("Server made yucky woo!")
 	}
 	s := make([]countryInfo, 0)
 	json.Unmarshal(bytes, &s)

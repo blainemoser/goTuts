@@ -27,7 +27,7 @@ func say(s string) {
 	for i := 0; i < 3; i++ {
 		// Use a sleeper to demonstrate the concept
 		if i == 2 {
-			panic("Oh fuck! A 2!")
+			panic("Oh yuck! A 2!")
 		}
 		time.Sleep(time.Millisecond * 100)
 		fmt.Println(s)
