@@ -147,7 +147,7 @@ func main() {
 	}
 
 	// example of an interface that implements another interfaces
-	// Just did some different syntax here to loop through the slice for shits and giggles
+	// Just did some different syntax here to loop through the slice for grins
 	lives := []Life{new(JavaProgrammer), new(Llama)}
 	for j := 0; j < len(lives); j++ {
 		lives[j].Grow()
